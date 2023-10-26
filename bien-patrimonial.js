@@ -59,6 +59,7 @@ class BienPatrimonial extends HTMLElement {
         }else{
             this.shadow.removeChild(this.shadow.lastChild)
         }
+        console.log('Attribute changed')
     }
 
 }
